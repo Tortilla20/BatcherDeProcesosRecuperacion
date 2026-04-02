@@ -1,4 +1,5 @@
-# BatcherDeProcesosRecuperacion
+<h1 align="center">Batcher de Procesos Recuperaciçon</h1>
+<p align="center">Iván Duro Fernández</p>
 
 Simulador de un **batcher de procesos** en Java, que permite cargar jobs desde YAML, planificarlos según distintas políticas y ejecutarlos simulando el uso de recursos del sistema.
 
@@ -41,6 +42,6 @@ com.mycompany.batcherdeprocesosrecuperacion
 
 ## Ejecución
 
-1. Coloca los YAML de tus jobs en la carpeta `jobs/`.  
+1. Coloca los YAML de tus jobs en la carpeta `jobs`.  
 2. Ejecuta el proyecto desde NetBeans o Maven.  
 3. Observa en consola cómo los jobs pasan por los estados y cómo evoluciona su progreso en tiempo real.
