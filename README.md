@@ -29,16 +29,14 @@
 
 ## Estructura de paquetes
 com.mycompany.batcherdeprocesosrecuperacion
-│
-| main → BatcherDeProcesosRecuperacion.java
-| model → Job.java, YamlJob.java
-| loader → JobLoader.java
-| storage → JobStorage.java
-| scheduler → Scheduler.java
-| resources → ResourceManager.java
-| process → ProcessCreator.java, WorkerMain.java
-| monitor → Monitor.java
-
+   - main → BatcherDeProcesosRecuperacion.java
+   - model → Job.java, YamlJob.java
+   - loader → JobLoader.java
+   - storage → JobStorage.java
+   - scheduler → Scheduler.java
+   - resources → ResourceManager.java
+   - process → ProcessCreator.java, WorkerMain.java
+   - monitor → Monitor.java
 
 ## Ejecución
 
