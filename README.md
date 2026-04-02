@@ -1,4 +1,4 @@
-<h1 align="center">Batcher de Procesos Recuperaciçon</h1>
+<h1 align="center">Batcher de Procesos Recuperación</h1>
 <p align="center">Iván Duro Fernández</p>
 
 <p align="center">Simulador de un batcher de procesos en Java, que permite cargar jobs desde YAML, planificarlos y ejecutarlos simulando el uso de recursos del sistema.</p>
