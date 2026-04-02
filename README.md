@@ -1,7 +1,7 @@
 <h1 align="center">Batcher de Procesos Recuperaciçon</h1>
 <p align="center">Iván Duro Fernández</p>
 
-<p align="center">Simulador de un **batcher de procesos** en Java, que permite cargar jobs desde YAML, planificarlos según distintas políticas y ejecutarlos simulando el uso de recursos del sistema.</p>
+<p align="center">Simulador de un batcher de procesos en Java, que permite cargar jobs desde YAML, planificarlos y ejecutarlos simulando el uso de recursos del sistema.</p>
 
 ## Funcionalidad principal
 
@@ -24,22 +24,22 @@
    - Al finalizar, los jobs pasan a `DONE` o `FAILED`, liberando recursos para nuevos jobs.
 
 5. **Monitor en tiempo real**  
-   - Imprime periódicamente el estado de los recursos y colas: `READY`, `WAITING`, `RUNNING`, `DONE`, `FAILED`.  
+   - Imprime el estado de los recursos y colas: `READY`, `WAITING`, `RUNNING`, `DONE`, `FAILED`.  
    - Muestra detalles de los jobs en ejecución: PID, prioridad, cores, memoria y progreso.
 
 ## Estructura de paquetes
 com.mycompany.batcherdeprocesosrecuperacion
-   - main → BatcherDeProcesosRecuperacion.java
-   - model → Job.java, YamlJob.java
-   - loader → JobLoader.java
-   - storage → JobStorage.java
-   - scheduler → Scheduler.java
-   - resources → ResourceManager.java
-   - process → ProcessCreator.java, WorkerMain.java
-   - monitor → Monitor.java
+   - main -> BatcherDeProcesosRecuperacion.java
+   - model -> Job.java, YamlJob.java
+   - loader -> JobLoader.java
+   - storage -> JobStorage.java
+   - scheduler -> Scheduler.java
+   - resources -> ResourceManager.java
+   - process -> ProcessCreator.java, WorkerMain.java
+   - monitor -> Monitor.java
 
 ## Ejecución
 
 1. Coloca los YAML de tus jobs en la carpeta `jobs`.  
 2. Ejecuta el proyecto desde NetBeans o Maven.  
-3. Observa en consola cómo los jobs pasan por los estados y cómo evoluciona su progreso en tiempo real.
+3. Observar en consola cómo los jobs pasan por los estados y cómo evoluciona su progreso en tiempo real.
